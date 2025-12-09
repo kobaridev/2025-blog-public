@@ -12,6 +12,16 @@
     "cover": "/blogs/tiktok/7f82dc2f3994ba94.jpg"
   },
   {
+    "slug": "appleid",
+    "title": "Apple 非国区ID注册教程",
+    "tags": [
+      "AppleID"
+    ],
+    "date": "2025-12-07",
+    "summary": "手把手教你注册 Apple 非国区（如美区、日区）ID",
+    "cover": "/blogs/appleid/5185827121b7d0a5.jpg"
+  },
+  {
     "slug": "mas",
     "title": "Microsoft 激活脚本（MAS)",
     "tags": [
