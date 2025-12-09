@@ -1,5 +1,15 @@
 [
   {
+    "slug": "mas",
+    "title": "Microsoft 激活脚本（MAS)",
+    "tags": [
+      "Microsoft Activation Script date"
+    ],
+    "date": "2025-12-06",
+    "summary": "开源的 Windows 和 Office 激活器，支持 HWID、Ohook、TSforge 和 Online KMS 激活方法，并具备高级故障排除功能。",
+    "cover": "/blogs/mas/600540e5aa0ba29c.jpg"
+  },
+  {
     "slug": "texture-format",
     "title": "图片格式 —— 关于材质的大小研究",
     "tags": [
