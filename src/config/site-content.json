@@ -41,9 +41,13 @@
 		{
 			"id": "",
 			"url": ""
+		},
+		{
+			"id": "734f9cd264982c7b",
+			"url": "/images/background/734f9cd264982c7b.jpg"
 		}
 	],
-	"currentBackgroundImageId": "",
+	"currentBackgroundImageId": "734f9cd264982c7b",
 	"socialButtons": [
 		{
 			"id": "juejin",
@@ -77,5 +81,5 @@
 	"clockShowSeconds": false,
 	"summaryInContent": false,
 	"isCachePem": true,
-	"hideEditButton": false
+	"hideEditButton": true
 }
