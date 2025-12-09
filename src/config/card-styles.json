@@ -16,8 +16,8 @@
 		"enabled": true
 	},
 	"clockCard": {
-		"width": 232,
-		"height": 132,
+		"width": 307,
+		"height": 146,
 		"offset": 92,
 		"order": 4,
 		"offsetX": null,
@@ -42,11 +42,11 @@
 		"enabled": true
 	},
 	"socialButtons": {
-		"width": 315,
-		"height": 48,
+		"width": 310,
+		"height": 50,
 		"order": 6,
-		"offsetX": null,
-		"offsetY": null,
+		"offsetX": -138,
+		"offsetY": 178,
 		"enabled": true
 	},
 	"shareCard": {
