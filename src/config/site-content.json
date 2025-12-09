@@ -81,5 +81,5 @@
 	"clockShowSeconds": false,
 	"summaryInContent": false,
 	"isCachePem": true,
-	"hideEditButton": true
+	"hideEditButton": false
 }
