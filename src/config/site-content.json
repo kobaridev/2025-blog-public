@@ -73,7 +73,7 @@
 		{
 			"id": "github",
 			"type": "github",
-			"value": "https://github.com/kobari",
+			"value": "https://github.com/kobaridev",
 			"label": "Github",
 			"order": 4
 		}
