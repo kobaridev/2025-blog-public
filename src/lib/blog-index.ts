@@ -9,6 +9,7 @@ export type BlogIndexItem = {
 	date: string
 	summary?: string
 	cover?: string
+	hidden?: boolean
 }
 
 export async function upsertBlogsIndex(token: string, owner: string, repo: string, item: BlogIndexItem, branch: string): Promise<void> {

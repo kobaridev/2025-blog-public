@@ -1,5 +1,7 @@
 import useSWR from 'swr'
+import { useAuthStore } from '@/hooks/use-auth'
 
+// 保持类型同步
 export type BlogIndexItem = {
 	slug: string
 	title: string
@@ -7,25 +9,35 @@ export type BlogIndexItem = {
 	date: string
 	summary?: string
 	cover?: string
+	hidden?: boolean
 }
 
+// 改进 fetcher，抛出状态码以便处理 404
 const fetcher = async (url: string) => {
 	const res = await fetch(url, { cache: 'no-store' })
 	if (!res.ok) {
-		throw new Error('Failed to load blog index')
+		const error: any = new Error('Fetch failed')
+		error.status = res.status
+		throw error
 	}
 	const data = await res.json()
 	return Array.isArray(data) ? data : []
 }
 
 export function useBlogIndex() {
+	const { isAuth } = useAuthStore()
 	const { data, error, isLoading } = useSWR<BlogIndexItem[]>('/blogs/index.json', fetcher, {
 		revalidateOnFocus: false,
 		revalidateOnReconnect: true
 	})
 
+	let result = data || []
+	if (!isAuth) {
+		result = result.filter(item => !item.hidden)
+	}
+
 	return {
-		items: data || [],
+		items: result,
 		loading: isLoading,
 		error
 	}
