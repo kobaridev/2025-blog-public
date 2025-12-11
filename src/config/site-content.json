@@ -83,9 +83,9 @@
 		}
 	],
 	"clockShowSeconds": false,
-	"summaryInContent": false,
+	"summaryInContent": true,
 	"isCachePem": false,
 	"hideEditButton": false,
-	"currentHatIndex": 3,
-	"hatFlipped": false
+	"currentHatIndex": 12,
+	"hatFlipped": true
 }
