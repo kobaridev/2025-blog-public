@@ -72,7 +72,8 @@
     ],
     "date": "2025-11-25",
     "summary": "压缩图片的讨论",
-    "cover": "/blogs/texture-format/2c7d9391c47a1876.jpg"
+    "cover": "/blogs/texture-format/2c7d9391c47a1876.jpg",
+    "category": "总结"
   },
   {
     "slug": "kuangyeshidai",
@@ -95,7 +96,8 @@
     ],
     "date": "2025-11-21",
     "summary": "很简单就能实现这个液态玻璃效果，真棒",
-    "cover": "/blogs/liquid-grass/0e7190ecaedc4930.png"
+    "cover": "/blogs/liquid-grass/0e7190ecaedc4930.png",
+    "category": "代码实现"
   },
   {
     "slug": "readme",
