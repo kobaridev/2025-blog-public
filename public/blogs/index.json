@@ -1,5 +1,18 @@
 [
   {
+    "slug": "syncCode",
+    "title": "VSCode Sync Upstream ",
+    "tags": [
+      "Sync",
+      "Git graph"
+    ],
+    "date": "2025-12-13T15:23",
+    "summary": "利用VSCode 及Git graph插件实现可视化的同步上游代码",
+    "cover": "/blogs/syncCode/53f972446626478c.webp",
+    "hidden": false,
+    "category": "教程"
+  },
+  {
     "slug": "chainsaw_man",
     "title": "《电锯人：蕾塞篇》观后感",
     "tags": [

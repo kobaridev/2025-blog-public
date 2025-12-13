@@ -1,0 +1,81 @@
+> 适用于：  
+> - 用 VSCode 管理代码  
+> - fork 了 `YYsuni/2025-blog-public` 并自己改内容  
+> - 上游更新后，想**保留自己改动**并**同步最新代码**
+
+---
+
+> 前期准备
+> - VSCode （软件）
+> - Git Graph （VSCode插件）
+> - 仓库 **`Clone`** 到本地
+
+## 1. 给仓库加上“上游”
+
+```bash
+# fork仓库默认是有上游的，使用命令查看远程信息
+git remote -v
+```
+可看到`origin`、`upstream`
+若没有**upstream**则执行如下代码
+```bash
+git remote add upstream https://github.com/YYsuni/2025-blog-public.git
+```
+---
+
+## 2. 拉取远程仓库代码，确保本地与远程仓库一致，防止冲突
+
+```bash
+git pull origin main
+```
+## 3. 抓取上游最新代码到本地
+
+```bash
+git fetch upstream
+```
+
+![](https://picbed.xiaozhangya.xin/blog/SyncUpstream/sync1.webp)
+
+---
+## 4. 打开Git Graph插件
+- **Merge into current branch**
+![](https://picbed.xiaozhangya.xin/blog/SyncUpstream/sync2.webp)
+> 记得勾选 **`No Commit`**
+![](https://picbed.xiaozhangya.xin/blog/SyncUpstream/sync3.webp)
+
+## 5. 解决冲突（仅限冲突时）
+
+1.  打开 VSCode 分支管理 查看存在冲突的文件
+2. 找到类似下面的标记：
+
+```json
+采用当前更改|采用传入的更改|保留双方更改|比较变更
+```
+
+```json
+<<<<<<< HEAD
+...你原来的内容...
+=======
+...上游的新内容...
+>>>>>>> upstream/main
+```
+
+
+
+3. 把标记删掉，保留你想要的内容，**保存文件**。  
+4. 解决冲突后，暂存文件，**`commit`** (点击继续）
+![](https://picbed.xiaozhangya.xin/blog/SyncUpstream/sync4.webp)
+---
+
+## 6. 推送代码到 GitHub
+> 右键 **`main`**
+![](https://picbed.xiaozhangya.xin/blog/SyncUpstream/sync5.webp)
+
+> Push Branch(推送到远程)
+![](https://picbed.xiaozhangya.xin/blog/SyncUpstream/sync6.webp)
+![](https://picbed.xiaozhangya.xin/blog/SyncUpstream/sync7.webp)
+
+> **`main | origin`** 即推送成功
+![](https://picbed.xiaozhangya.xin/blog/SyncUpstream/sync8.webp)
+
+> 至此，便完成了与上游代码的**同步**!
