@@ -9,7 +9,7 @@
     "summary": "蕾塞的一生，被命运束缚，那句“老实说，我也没去过学校”，是她无声的叹息，也是未竟的孤独。",
     "cover": "/blogs/chainsaw_man/60e087d978b6c4b0.webp",
     "hidden": false,
-    "category": ""
+    "category": "动漫"
   },
   {
     "slug": "tiktok",
@@ -21,7 +21,8 @@
     ],
     "date": "2025-12-08",
     "summary": "使用 Nrfr 修改 SIM 卡运行商，免拔卡使用 TikTok",
-    "cover": "/blogs/tiktok/7f82dc2f3994ba94.jpg"
+    "cover": "/blogs/tiktok/7f82dc2f3994ba94.jpg",
+    "category": "教程"
   },
   {
     "slug": "appleid",
@@ -31,7 +32,8 @@
     ],
     "date": "2025-12-07",
     "summary": "手把手教你注册 Apple 非国区（如美区、日区）ID",
-    "cover": "/blogs/appleid/5185827121b7d0a5.jpg"
+    "cover": "/blogs/appleid/5185827121b7d0a5.jpg",
+    "category": "教程"
   },
   {
     "slug": "mas",
@@ -41,7 +43,8 @@
     ],
     "date": "2025-12-06",
     "summary": "开源的 Windows 和 Office 激活器，支持 HWID、Ohook、TSforge 和 Online KMS 激活方法，并具备高级故障排除功能。",
-    "cover": "/blogs/mas/600540e5aa0ba29c.jpg"
+    "cover": "/blogs/mas/600540e5aa0ba29c.jpg",
+    "category": "教程"
   },
   {
     "slug": "openlist",
@@ -53,7 +56,8 @@
     ],
     "date": "2025-12-06",
     "summary": "通过Openlist挂载夸克网盘，使用网易爆米花，实现随时随地在线观看原画视频",
-    "cover": "/blogs/openlist/9e5cd4e6565e516a.jpg"
+    "cover": "/blogs/openlist/9e5cd4e6565e516a.jpg",
+    "category": "教程"
   },
   {
     "slug": "typora",
@@ -63,7 +67,8 @@
     ],
     "date": "2025-12-06",
     "summary": "Typora是一个简洁易用（？）的MarkDown编辑器，不想交钱？改几行文件就破解！",
-    "cover": "/blogs/typora/735638b5bbb830ac.jpg"
+    "cover": "/blogs/typora/735638b5bbb830ac.jpg",
+    "category": "教程"
   },
   {
     "slug": "texture-format",
@@ -76,18 +81,6 @@
     "summary": "压缩图片的讨论",
     "cover": "/blogs/texture-format/2c7d9391c47a1876.jpg",
     "category": "总结"
-  },
-  {
-    "slug": "kuangyeshidai",
-    "title": "狂野时代",
-    "tags": [
-      "影评",
-      "日常"
-    ],
-    "date": "2025-11-22",
-    "summary": "观《狂野时代》后感",
-    "cover": "/blogs/kuangyeshidai/e260bea5dbfda5b7.jpg",
-    "hidden": false
   },
   {
     "slug": "liquid-grass",
@@ -109,6 +102,7 @@
     ],
     "date": "2025-11-16",
     "summary": "2025-blog-public 项目的使用说明以及注意事项",
-    "cover": "/blogs/readme/9532a65cc32ca5eb.png"
+    "cover": "/blogs/readme/9532a65cc32ca5eb.png",
+    "category": "开源"
   }
 ]
