@@ -1,5 +1,17 @@
 [
   {
+    "slug": "infiniteCastle",
+    "title": "To The Infinite Castle",
+    "tags": [
+      "鬼灭之刃"
+    ],
+    "date": "2025-12-14T22:23",
+    "summary": "柱集结，决战无限城！",
+    "cover": "/blogs/infiniteCastle/fe3cff51dfcd2877.webp",
+    "hidden": false,
+    "category": "动漫"
+  },
+  {
     "slug": "syncCode",
     "title": "VSCode Sync Upstream ",
     "tags": [
