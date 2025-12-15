@@ -10,6 +10,18 @@
 > - Git Graph （VSCode插件）
 > - 仓库 **`Clone`** 到本地
 
+**参考视频**
+<div style="width:100%;max-width:1200px;margin:auto">
+  <div style="position:relative;padding-bottom:70%">
+    <iframe
+      src="https://picbed.xiaozhangya.xin/blog/SyncUpstream/syncUpstream.mp4"
+      style="position:absolute;top:0;left:0;width:100%;height:100%;border:none"
+      allowfullscreen
+      loading="lazy"
+    ></iframe>
+  </div>
+</div>
+
 ## 1. 给仓库加上“上游”
 
 ```bash
