@@ -46,9 +46,13 @@
 		{
 			"id": "b32e65fd46f8f4ef",
 			"url": "/images/art/b32e65fd46f8f4ef.png"
+		},
+		{
+			"id": "url-1766119267752",
+			"url": "https://t.alcy.cc/acg"
 		}
 	],
-	"currentArtImageId": "cdd279b07302ce53",
+	"currentArtImageId": "url-1766119267752",
 	"backgroundImages": [
 		{
 			"id": "",
@@ -63,7 +67,7 @@
 			"url": "https://t.alcy.cc/acg"
 		}
 	],
-	"currentBackgroundImageId": "url-1766119070621",
+	"currentBackgroundImageId": "",
 	"socialButtons": [
 		{
 			"id": "juejin",
