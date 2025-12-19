@@ -57,9 +57,13 @@
 		{
 			"id": "734f9cd264982c7b",
 			"url": "/images/background/734f9cd264982c7b.jpg"
+		},
+		{
+			"id": "url-1766119070621",
+			"url": "https://t.alcy.cc/acg"
 		}
 	],
-	"currentBackgroundImageId": "",
+	"currentBackgroundImageId": "url-1766119070621",
 	"socialButtons": [
 		{
 			"id": "juejin",
