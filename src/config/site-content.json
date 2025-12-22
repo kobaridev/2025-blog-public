@@ -103,8 +103,8 @@
 	"isCachePem": false,
 	"hideEditButton": false,
 	"enableCategories": true,
-	"currentHatIndex": 3,
-	"hatFlipped": false,
+	"currentHatIndex": 12,
+	"hatFlipped": true,
 	"enableChristmas": true,
 	"beian": {
 		"text": "",
