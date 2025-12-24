@@ -50,9 +50,13 @@
 		{
 			"id": "url-1766119267752",
 			"url": "https://t.alcy.cc/acg"
+		},
+		{
+			"id": "d0df676a981bf4fc",
+			"url": "/images/art/d0df676a981bf4fc.png"
 		}
 	],
-	"currentArtImageId": "cdd279b07302ce53",
+	"currentArtImageId": "d0df676a981bf4fc",
 	"backgroundImages": [
 		{
 			"id": "",
@@ -101,7 +105,7 @@
 	"clockShowSeconds": false,
 	"summaryInContent": true,
 	"isCachePem": false,
-	"hideEditButton": false,
+	"hideEditButton": true,
 	"enableCategories": true,
 	"currentHatIndex": 12,
 	"hatFlipped": true,
