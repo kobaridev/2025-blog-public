@@ -21,6 +21,8 @@ git --version
 
 ## 三、创建并推送新仓库到 GitHub
 
+> 请确保GitHub已经提前创建好一个新仓库
+
 ### 👉 方式一：在命令行创建新仓库
 
 ```cmd
@@ -28,7 +30,7 @@ git init
 git add README.md
 git commit -m "第一次提交"
 git branch -M main
-git remote add origin https://github.com/zxy131714/demo.git
+git remote add origin https://github.com/用户名/仓库名.git
 git push -u origin main
 ```
 
