@@ -153,10 +153,9 @@ export default function MusicCard() {
 		setIsPlaying(!isPlaying)
 	}
 
-	// Hide component if not on home page and not playing
-	// Ensure we do not render any UI on mobile other pages (so it doesn't float), 
-	// but the audio element in the background continues to play.
-	if (!isHomePage && (!isPlaying || maxSM)) {
+	// Hide UI completely if not on home page, regardless of desktop or mobile
+	// The audio element will continue to play in the background if it was playing.
+	if (!isHomePage) {
 		return null
 	}
 
