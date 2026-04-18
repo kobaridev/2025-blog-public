@@ -8,6 +8,7 @@ import SocialButtons from '@/app/(home)/social-buttons'
 import ShareCard from '@/app/(home)/share-card'
 import AritcleCard from '@/app/(home)/aritcle-card'
 import WriteButtons from '@/app/(home)/write-buttons'
+import MusicCard from '@/components/music-card'
 import LikePosition from './like-position'
 import HatCard from './hat-card'
 import BeianCard from './beian-card'
@@ -82,6 +83,7 @@ export default function Home() {
 				{!maxSM && cardStyles.clockCard?.enabled !== false && <ClockCard />}
 				{!maxSM && cardStyles.calendarCard?.enabled !== false && <CalendarCard />}
 				{cardStyles.socialButtons?.enabled !== false && <SocialButtons />}
+				{maxSM && cardStyles.musicCard?.enabled !== false && <div id="mobile-music-portal" className="w-full flex justify-center z-10" />}
 				{!maxSM && cardStyles.shareCard?.enabled !== false && <ShareCard />}
 				{cardStyles.articleCard?.enabled !== false && <AritcleCard />}
 				{!maxSM && cardStyles.writeButtons?.enabled !== false && <WriteButtons />}

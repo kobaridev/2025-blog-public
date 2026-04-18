@@ -1,6 +1,7 @@
 'use client'
 
 import { useState, useRef, useEffect, useMemo } from 'react'
+import { createPortal } from 'react-dom'
 import Card from '@/components/card'
 import { useCenterStore } from '@/hooks/use-center'
 import { useConfigStore } from '../app/(home)/stores/config-store'
@@ -12,9 +13,12 @@ import { Pause } from 'lucide-react'
 import { usePathname } from 'next/navigation'
 import clsx from 'clsx'
 
+import { useSize } from '@/hooks/use-size'
+
 const MUSIC_FILES = ['/music/JaneDoe.flac']
 
 export default function MusicCard() {
+	const { maxSM } = useSize()
 	const pathname = usePathname()
 	const center = useCenterStore()
 	const { cardStyles, siteContent } = useConfigStore()
@@ -28,15 +32,34 @@ export default function MusicCard() {
 	const [progress, setProgress] = useState(0)
 	const audioRef = useRef<HTMLAudioElement | null>(null)
 	const currentIndexRef = useRef(0)
+	const [portalNode, setPortalNode] = useState<HTMLElement | null>(null)
 
 	const isHomePage = pathname === '/'
+
+	useEffect(() => {
+		if (maxSM && isHomePage) {
+			const node = document.getElementById('mobile-music-portal')
+			if (node) setPortalNode(node)
+			
+			const interval = setInterval(() => {
+				const n = document.getElementById('mobile-music-portal')
+				if (n && n !== portalNode) {
+					setPortalNode(n)
+					clearInterval(interval)
+				}
+			}, 100)
+			return () => clearInterval(interval)
+		} else {
+			setPortalNode(null)
+		}
+	}, [maxSM, isHomePage, portalNode])
 
 	const position = useMemo(() => {
 		// If not on home page, always position at bottom-right corner when playing
 		if (!isHomePage) {
 			return {
-				x: center.width - styles.width - 16,
-				y: center.height - styles.height - 16
+				x: center.width - (maxSM ? hiCardStyles.width : styles.width) - 16,
+				y: center.height - styles.height - (maxSM ? 80 : 16)
 			}
 		}
 
@@ -131,13 +154,21 @@ export default function MusicCard() {
 	}
 
 	// Hide component if not on home page and not playing
-	if (!isHomePage && !isPlaying) {
+	// Ensure we do not render any UI on mobile other pages (so it doesn't float), 
+	// but the audio element in the background continues to play.
+	if (!isHomePage && (!isPlaying || maxSM)) {
 		return null
 	}
 
-	return (
+	const content = (
 		<HomeDraggableLayer cardKey='musicCard' x={x} y={y} width={styles.width} height={styles.height}>
-			<Card order={styles.order} width={styles.width} height={styles.height} x={x} y={y} className={clsx('flex items-center gap-3', !isHomePage && 'fixed')}>
+			<Card
+				order={styles.order}
+				width={maxSM && isHomePage ? hiCardStyles.width : styles.width}
+				height={styles.height}
+				x={x}
+				y={y}
+				className={clsx('flex items-center gap-3', !isHomePage || (maxSM && !portalNode) ? 'fixed z-50' : 'max-sm:static')}>
 				{siteContent.enableChristmas && (
 					<>
 						<img
@@ -171,4 +202,10 @@ export default function MusicCard() {
 			</Card>
 		</HomeDraggableLayer>
 	)
+
+	if (portalNode && maxSM && isHomePage) {
+		return createPortal(content, portalNode)
+	}
+
+	return content
 }
