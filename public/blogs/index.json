@@ -1,5 +1,19 @@
 [
   {
+    "slug": "tailscale",
+    "title": "Tailscale + RDP 远程 Windows",
+    "tags": [
+      "Tailscale",
+      "RDP",
+      "远程桌面"
+    ],
+    "date": "2026-04-20T17:44",
+    "summary": "通过 Tailscale 将控制端与被控端设备处于同一虚拟局域网，实现远程控制。",
+    "cover": "/blogs/tailscale/a6daf41ed928d8ed.webp",
+    "hidden": false,
+    "category": "教程"
+  },
+  {
     "slug": "git",
     "title": "Git 安装与推送到 GitHub",
     "tags": [],
