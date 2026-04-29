@@ -6,29 +6,29 @@
 
 # 二、图文教程
 ## OpenList 配置教程
-![c1](https://pb.xiaozhangya.xin/openlistWebDAV/c1.png)
+![c1](https://pb.131714.xyz/openlistWebDAV/c1.png)
 ## 添加存储
-![c1](https://pb.xiaozhangya.xin/openlistWebDAV/c2.png)
+![c1](https://pb.131714.xyz/openlistWebDAV/c2.png)
 
 > ***WebDAV策略选择本地代理***
-> ![c1](https://pb.xiaozhangya.xin/openlistWebDAV/c3.png)
+> ![c1](https://pb.131714.xyz/openlistWebDAV/c3.png)
 > **Cookie的详细获取方式，查看**[**官方文档**](https://doc.oplist.org/guide/drivers/quark)
-> ![c1](https://pb.xiaozhangya.xin/openlistWebDAV/c4.png)
+> ![c1](https://pb.131714.xyz/openlistWebDAV/c4.png)
 ## 更改用户密码
-![c1](https://pb.xiaozhangya.xin/openlistWebDAV/c5.png)
+![c1](https://pb.131714.xyz/openlistWebDAV/c5.png)
 
-![c1](https://pb.xiaozhangya.xin/openlistWebDAV/c6.png)
+![c1](https://pb.131714.xyz/openlistWebDAV/c6.png)
 
-![c1](https://pb.xiaozhangya.xin/openlistWebDAV/c7.png)
+![c1](https://pb.131714.xyz/openlistWebDAV/c7.png)
 
-![c1](https://pb.xiaozhangya.xin/openlistWebDAV/c8.png)
+![c1](https://pb.131714.xyz/openlistWebDAV/c8.png)
 ## 网易爆米花配置
-![c1](https://pb.xiaozhangya.xin/openlistWebDAV/c9.png)
+![c1](https://pb.131714.xyz/openlistWebDAV/c9.png)
 
-![c1](https://pb.xiaozhangya.xin/openlistWebDAV/c10.png)
+![c1](https://pb.131714.xyz/openlistWebDAV/c10.png)
 > ***按图中配置来填写***
-> ![c1](https://pb.xiaozhangya.xin/openlistWebDAV/c11.jpg)
+> ![c1](https://pb.131714.xyz/openlistWebDAV/c11.jpg)
 
-![c1](https://pb.xiaozhangya.xin/openlistWebDAV/c12.png)
+![c1](https://pb.131714.xyz/openlistWebDAV/c12.png)
 
-![c1](https://pb.xiaozhangya.xin/openlistWebDAV/c13.jpg)
+![c1](https://pb.131714.xyz/openlistWebDAV/c13.jpg)

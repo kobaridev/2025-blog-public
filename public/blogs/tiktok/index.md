@@ -19,18 +19,18 @@
 
 1. 打开`Shizuku`
 
-   ![](https://picbed.xiaozhangya.xin/blog/tikTok/tiktok1.png)
+   ![](https://picbed.131714.xyz/blog/tikTok/tiktok1.png)
 
-   ![](https://picbed.xiaozhangya.xin/blog/tikTok/tiktok2.png)
+   ![](https://picbed.131714.xyz/blog/tikTok/tiktok2.png)
 
-   ![](https://picbed.xiaozhangya.xin/blog/tikTok/tiktok3.png)
+   ![](https://picbed.131714.xyz/blog/tikTok/tiktok3.png)
 
-   ![](https://picbed.xiaozhangya.xin/blog/tikTok/tiktok4.png)
+   ![](https://picbed.131714.xyz/blog/tikTok/tiktok4.png)
 
 2. 打开`Nrfr`
 
-![](https://picbed.xiaozhangya.xin/blog/tikTok/tiktok5.png)
+![](https://picbed.131714.xyz/blog/tikTok/tiktok5.png)
 
-![](https://picbed.xiaozhangya.xin/blog/tikTok/tiktok6.png)
+![](https://picbed.131714.xyz/blog/tikTok/tiktok6.png)
 
 > 至此即可正常使用 `TikTok`（无需拔卡）

@@ -18,10 +18,10 @@
 
 ## 图文教程
 
-  <img src="https://picbed.xiaozhangya.xin/blog/appleID/appleID01.png" alt="注册页面1" />
-  <img src="https://picbed.xiaozhangya.xin/blog/appleID/appleID02.png" alt="注册页面2" />
-  <img src="https://picbed.xiaozhangya.xin/blog/appleID/appleID03.png" alt="注册页面3" />
-  <img src="https://picbed.xiaozhangya.xin/blog/appleID/appleID04.png" alt="注册页面4" />
+  <img src="https://picbed.131714.xyz/blog/appleID/appleID01.png" alt="注册页面1" />
+  <img src="https://picbed.131714.xyz/blog/appleID/appleID02.png" alt="注册页面2" />
+  <img src="https://picbed.131714.xyz/blog/appleID/appleID03.png" alt="注册页面3" />
+  <img src="https://picbed.131714.xyz/blog/appleID/appleID04.png" alt="注册页面4" />
 
 
 > 注册完成后，你可以在 App Store 下载国区无法获取的应用（如部分代理软件等）。

@@ -14,7 +14,7 @@
 <div style="width:100%;max-width:1200px;margin:auto">
   <div style="position:relative;padding-bottom:70%">
     <iframe
-      src="https://picbed.xiaozhangya.xin/blog/SyncUpstream/syncUpstream.mp4"
+      src="https://picbed.131714.xyz/blog/SyncUpstream/syncUpstream.mp4"
       style="position:absolute;top:0;left:0;width:100%;height:100%;border:none"
       allowfullscreen
       loading="lazy"
@@ -46,14 +46,14 @@ git pull origin main
 git fetch upstream
 ```
 
-![](https://picbed.xiaozhangya.xin/blog/SyncUpstream/sync1.webp)
+![](https://picbed.131714.xyz/blog/SyncUpstream/sync1.webp)
 
 ---
 ## 4. 打开Git Graph插件
 - **Merge into current branch**
-![](https://picbed.xiaozhangya.xin/blog/SyncUpstream/sync2.webp)
+![](https://picbed.131714.xyz/blog/SyncUpstream/sync2.webp)
 > 记得勾选 **`No Commit`**
-![](https://picbed.xiaozhangya.xin/blog/SyncUpstream/sync3.webp)
+![](https://picbed.131714.xyz/blog/SyncUpstream/sync3.webp)
 
 ## 5. 解决冲突（仅限冲突时）
 
@@ -76,18 +76,18 @@ git fetch upstream
 
 3. 把标记删掉，保留你想要的内容，**保存文件**。  
 4. 解决冲突后，暂存文件，**`commit`** (点击继续）
-![](https://picbed.xiaozhangya.xin/blog/SyncUpstream/sync4.webp)
+![](https://picbed.131714.xyz/blog/SyncUpstream/sync4.webp)
 ---
 
 ## 6. 推送代码到 GitHub
 > 右键 **`main`**
-![](https://picbed.xiaozhangya.xin/blog/SyncUpstream/sync5.webp)
+![](https://picbed.131714.xyz/blog/SyncUpstream/sync5.webp)
 
 > Push Branch(推送到远程)
-![](https://picbed.xiaozhangya.xin/blog/SyncUpstream/sync6.webp)
-![](https://picbed.xiaozhangya.xin/blog/SyncUpstream/sync7.webp)
+![](https://picbed.131714.xyz/blog/SyncUpstream/sync6.webp)
+![](https://picbed.131714.xyz/blog/SyncUpstream/sync7.webp)
 
 > **`main | origin`** 即推送成功
-![](https://picbed.xiaozhangya.xin/blog/SyncUpstream/sync8.webp)
+![](https://picbed.131714.xyz/blog/SyncUpstream/sync8.webp)
 
 > 至此，便完成了与上游代码的**同步**!
