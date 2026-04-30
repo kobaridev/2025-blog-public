@@ -1,5 +1,15 @@
 [
   {
+    "slug": "telegram",
+    "title": "Telegram绕收费接收验证码",
+    "tags": [],
+    "date": "2026-04-30T15:37",
+    "summary": "绕过收费",
+    "cover": "/blogs/telegram/fd6325105bdf1cb4.webp",
+    "hidden": false,
+    "category": "教程"
+  },
+  {
     "slug": "tailscale",
     "title": "Tailscale + RDP 远程 Windows",
     "tags": [
