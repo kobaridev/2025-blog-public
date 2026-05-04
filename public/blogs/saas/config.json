@@ -1,0 +1,12 @@
+{
+  "title": "Saas 优选",
+  "tags": [
+    "Cloudflare",
+    "Saas"
+  ],
+  "date": "2026-05-04T10:04",
+  "summary": "本文介绍了一种基于 Cloudflare SaaS 架构的域名优选配置方法。",
+  "cover": "/blogs/saas/29517d5be315d3a7.webp",
+  "hidden": false,
+  "category": "教程"
+}
