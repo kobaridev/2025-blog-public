@@ -1,5 +1,18 @@
 [
   {
+    "slug": "github_connect",
+    "title": "GitHub连接失败解决方法",
+    "tags": [
+      "GitHub",
+      "Proxy"
+    ],
+    "date": "2026-05-09T13:07",
+    "summary": "GitHub 443报错源于Git代理设置与实际网络不一致。解决办法：使用代理时，需通过git config同步端口号；不使用代理时，需执行--unset命令清除代理配置。",
+    "cover": "/blogs/github_connect/9b4077849c7951b8.webp",
+    "hidden": false,
+    "category": "教程"
+  },
+  {
     "slug": "worker",
     "title": "Cloudflare Worker 优选配置步骤",
     "tags": [
